@@ -45,9 +45,9 @@ This is my implementation of the Wazuh SIEM, installed on a Windows 10 virtual m
 - **pfSense syslog configuration:** Attempted to forward pfSense and Suricata logs to Wazuh via remote syslog. Steps included:
 	- Creating a pfSense configuration to forward logs to the SIEM:
 		![](images/pfSenseConf.png)
-	- Enable remote logging.
+  	- Enable remote logging.
 		![](images/RemoteLogging.png)
-		However, logs didn't appear in Wazuh. This was likely due to misconfigured ports or firewall rules. Time constraints prevented further debugging.
+	However, logs didn't appear in Wazuh. This was likely due to misconfigured ports or firewall rules. Time constraints prevented further debugging.
 ---
 ### Future Improvements
 
